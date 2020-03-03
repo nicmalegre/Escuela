@@ -1,0 +1,319 @@
+
+#nav-principal{
+    background-color: #343a40;
+}
+
+nav ul a{
+    color: white;
+}
+
+nav ul a:hover{
+    color:#fed136;
+}
+
+/* ESTILO PARA "ESCUELA TARAGUI" DENTRO DEL NAVBAR */
+#titEscuela {
+    color: #fed136;
+    font-family: 'Playball', cursive;
+    font-size: 1.60rem;
+    margin-left: 10px;
+  }
+
+/* ESTILOS PARA LA SECCION DONDE ESTAN LOS DISTINTOS NIVELES */
+.circulo{
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border:6px solid #EFEFEF;
+  }
+  
+  .circulo:hover{
+  border:6px solid #A45353;
+  }
+  
+  .div-niveles h6{
+  margin-top: 10px;
+  }
+  
+  .div-niveles p{
+    color: #999999;
+    justify-content: center;
+  }
+  
+  #niv-inicial{
+    background-image: url("../img/jardin.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+  }
+  
+  #niv-primario{
+    background-image: url("../img/ninos2.png");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+  }
+  
+  #niv-secundario{
+    background-image: url("../img/jovenes.png");
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: center;
+  }
+
+/* ESTILOS PARA EL RECTANGULO CON LA INFORMACION DE CONTACTAR */
+.div-contacto{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 0 0 20px #888;
+    max-width: 60%;
+  }
+  
+  .div-contacto h3{
+    margin-top: 20px; 
+    margin-bottom:20px; 
+    color: #343a40; 
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  
+  .div-contacto section{
+    margin:30px 0 0 0;
+    padding: 0;
+  }
+  
+  .div-contacto a{
+    color: #343a40
+  }
+  
+  .div-contacto i{
+    font-size: 30px; 
+    margin-right: 15px;
+  } 
+  
+  /* ESTILOS PARA LA GALERIA Y PARA EL MODAL QUE ABRE LA GALERIA */
+  .margenes{
+    margin: 2px 2px 2px 2px;
+    padding: 0;
+  }
+  
+  .col-galery{
+    position: relative;
+    width: 100%;
+    
+  }
+  
+  @media (min-width: 992px) {
+  .col-galery{
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000000000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+  }
+  
+  @media screen and (prefers-reduced-motion: reduce) {
+    .prev,
+    .next {
+      transition: none;
+    }
+  }
+  
+  .prev:hover, .prev:focus,
+  .next:hover,
+  .next:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: 0.9;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  #img-galeria {
+    width: 80%;
+    margin-bottom: -4px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  .img-galeria .hover-shadow {
+    transition: 0.3s;
+  
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  
+  
+  /* ESTILOS PARA LA IMAGEN Y TEXTO DE PORTADA DE LAS PAGINAS DE LOS NIVELES */
+  #div-img{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    border: 1px solid black;
+    filter: brightness(50%);
+  }
+  
+  
+  #texto-imagen{
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    font-family: 'Trebuchet MS Header';
+  }
+  
+  #texto-imagen h1{
+    font-size: 50px;
+  }
+  
+  #texto-imagen h6{
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  /* ESTILOS PARA LOS BOTONES DE NIVELES DE LA BARRA LATERAL EN LAS PAGINAS DE NIVELES */
+  .btn-laterales{
+    border-color: blue;
+    background: white;
+    color: #343a40;
+    margin-bottom: 10px; 
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  /* ESTILOS PARA EL BOTON DE CONTACTAR QUE SE ENCUENTRA EN EL PRE-FOOTER */
+  #btn-contactar{
+    margin-top: 10px;
+    margin-bottom:10px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 14px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    box-shadow: 0 0 20px #fff;
+    color: #fff;
+    font-family: Courier New;
+  
+  }
+  
