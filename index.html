@@ -136,9 +136,109 @@
     </div>
   </div>
 
-  <br>
+<!-- GALERIA -->
+<br>
+<div data-aos="fade-up" class="container">
+  <div class="row text-center">
+    <div class="col-lg-12 mb-4">
+      <h2>Galeria</h2>
+      <hr style="color: #0056b2; border: 1px solid;"/>
+    </div>
+  </div>
+</div>
+
+
+<div data-aos="fade-up" class="container text-center">
+  <div class="row text-center" style="background-color: white; color: black;">
+    <div class="col-galery">
+      <div class="margenes">
+          <img class="img-responsive margenes hover-shadow cursor img-galeria" src="img/galeria/1.jpeg" onclick="openModal();currentSlide(1)"  style="width: 100%;">
+      </div>
+    </div>
+
+    <div class="col-galery">
+      <div class="margenes">
+          <img class="img-responsive margenes hover-shadow cursor img-galeria"  src="img/galeria/2.jpg" onclick="openModal();currentSlide(1)"  style="width: 100%;">
+      </div>
+    </div>
+
+    <div class="col-galery">
+      <div class="margenes">
+          <img class="margenes hover-shadow cursor img-galeria" src="img/galeria/3.jpg" onclick="openModal();currentSlide(1)"  style="width: 100%;">
+      </div>
+    </div>
+
+    <div class="col-galery">
+      <div class="margenes">
+          <img class="img-responsive margenes hover-shadow cursor img-galeria" src="img/galeria/4.jpg" onclick="openModal();currentSlide(1)"  style="width: 100%;">
+      </div>
+    </div>
+
+    <div class="col-galery">
+      <div class="margenes">
+          <img class="img-responsive margenes hover-shadow cursor img-galeria" src="img/galeria/5.jpg" onclick="openModal();currentSlide(1)"  style="width: 100%;">
+      </div>
+    </div>
+
+    <div class="col-galery">
+      <div class="margenes">
+          <img class="img-responsive margenes hover-shadow cursor img-galeria" src="img/galeria/6.jpg" onclick="openModal();currentSlide(1)"  style="width: 100%;">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="myModal" class="modal" style="padding-top: 50px;">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="img/galeria/1.jpeg" style="width:100%" class="img-galeria">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="img/galeria/2.jpg" style="width:100%" class="img-galeria">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="img/galeria/3.jpg" style="width:100%" class="img-galeria">
+    </div>
+          
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="img/galeria/4.jpg" style="width:100%" class="img-galeria">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="img/galeria/4.jpg" style="width:100%" class="img-galeria">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="img/galeria/4.jpg" style="width:100%" class="img-galeria">
+    </div>
+          
+    <a class="prev" onclick="plusSlides(-1)" style="cursor: pointer;">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+
+    <a class="next" onclick="plusSlides(1)" style="cursor: pointer;">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+</div>
   
-  <!-- PRE- FOOTER -->
+  
+    <!-- PRE- FOOTER -->
   <footer class="bg-dark" style="margin-bottom: 2px; padding-top: 10px; padding-bottom:10px;">
     <div class="container-fluid">
       <div class="row">
