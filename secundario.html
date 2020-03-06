@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Nivel Secundario - Escuela Taragui</title>
+
+  <!-- CARGAR BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+  <!--  LINK PARA LAS LETRAS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- LINK PARA CARGAR LOS ESTILOS DE ESTA SECCION -->
+    <link rel="stylesheet" href="css/niveles.css">
+
+  <!-- LINK PARA CARGAR LOS ESTILOS Y LETRAS DE LA SECCION ACTIVIDADES -->
+  <link rel="stylesheet" href="css/style-actividades.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+</head>
+
+
+<body id="page-top">
+  <!-- CONTENIDO DEL NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark" id="nav-principal">
+    <a href="#page-top"><img class="img-fluid" src="img/Logo.png" alt="" width="50px" height="50px"></a>
+    <a class="navbar-brand" href="index.html" id="titEscuela">Escuela Taragüi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="color: white;"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a></li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Niveles
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="inicial.html">Nivel Inicial</a>
+            <a class="dropdown-item" href="primario.html">Nivel Primario</a>
+            <a class="dropdown-item active" href="secundario.html">Nivel Secundario</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="novedades.html">Novedades</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+    <!-- CONTENIDO DE LA FOTO PRINCIPAL QUE TIENE EL NIVEL SECUNDARIO (HEADER) -->
+    <header>  
+        <div class="container-fluid text-center" style="color: white; padding: 0; margin: 0;">
+          <div class="row">
+            <div class="col-lg-12">
+              <div id="div-img" style="background-image: url('img/secundarioportada.jpg');"></div>
+              <div id="texto-imagen">
+                <h1>NIVEL SECUNDARIO</h1>
+                <h6>El nivel secundario de la escuela privada taragui tiene como objetivo brindar todas las herramientas necesarias para comenzar un camino de educacion y aprendizaje de los valores.</h6>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </header>
+    
+    
+      <br>
+      <!-- CONTENIDO DE LA PAGINA PRINCIPAL - NIVEL SECUNDARIO -->
+      
+      <!-- ACERCA DEL COLEGIO -->
+      <br>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12 mb-4">
+            <h2 >Informacion General</h2>
+            <hr style="color: #0056b2; border: 1px solid;"/>
+    
+            <div>
+              <p>En el colegio taragui, en el nivel secundario se busca que los niños vayan forjando conocimientos desde sus primeros pasos, así también, como aprendiendo a trabajar en grupo y fortaleciendo los valores morales.</p>
+              <p>Mediante un correcto ambiente de trabajo y una constante supervisión de sus maestras podrán tanto adquirir conocimientos como disfrutar de una excelente mañana junto a sus compañeros.</p>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    
+      <!-- BUTTON PARA DESPLEGAR LA INFORMACION REFERIDA AL NIVEL -->
+      <div class="container">
+        <!-- OBJETIVOS -->
+        <div class="row">
+    
+          <div class="col-lg-9">
+            <div class="text-center" onclick="desplegarObj()" style="background-color: #1E3EB8; cursor: pointer;">
+              <h3 id="text-objetivos" style="color: white; font-family: 'Electrolize', sans-serif;">Objetivos -</h3>
+            </div>
+    
+            <div id="objetivos" style="background-color: #EFEFEF;">
+              <p>. Enseñar valores molares.</p>
+              <p>. Lograr el correcto desenvolvimiento de los niños con sus pares.</p>
+              <p>. Enfatizar el respeto hacia sus pares como a las autoridades.</p>
+              <p>. Enfatizar el respeto hacia sus pares como a las autoridades.</p>
+            </div>    
+    
+          <!-- HORARIOS -->
+          
+            <div class="text-center" onclick="desplegarHor()" style="background-color: #1E3EB8; cursor:pointer;">
+              <h3 id="text-horarios" style="color: white; font-family: 'Electrolize', sans-serif;">Horarios -</h3>
+            </div>
+    
+            <div class="text-center" id="horarios" style="background-color: #EFEFEF;">
+              <h6><b>Turno Mañana</b></h6>
+              <p><i>Horario de Entrada</i>: 7:45 am</p>
+              <p><i>Horario de Salida</i>: 12:45 pm</p>
+            </div>
+    
+        
+          <!-- UNIFORME -->
+       
+            <div class="text-center" onclick="desplegarUnif()" style="background-color: #1E3EB8; cursor: pointer;">
+              <h3 id="text-uniforme" style="color: white; font-family: 'Electrolize', sans-serif;">Uniforme +</h3>
+            </div>
+    
+            <div id="uniforme" style="background-color: #EFEFEF; display: none;">
+              <div class="table-responsive">
+                 <table class="table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Alumnos</th>
+                      <th>Alumnas</th>
+                    </tr>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td><b>Formal</b></td>
+                      <td>Chomba de la institucion/Camisa. Pantalon. Zapato</td>
+                      <td>Chomba de la institucion/Camisa. Pollera. Zapato</td>
+                    </tr>
+    
+                    <tr>
+                      <td><b>Educación Fisica</b></td>
+                      <td>Chomba de la institucion. Short (negro/azul). Zapatillas deportivas</td>
+                      <td>Chomba de la institucion. Zapatillas</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+         
+          <!-- PROGRAMAS -->
+          
+            <div class="text-center" onclick="desplegarProg()" style="background-color: #1E3EB8; cursor: pointer;">
+              <h3 id="text-programas" style="color: white; font-family: 'Electrolize', sans-serif;">Programas +</h3>
+            </div>
+    
+            <div class="text-center" id="programas" style="background-color: #EFEFEF; display: none;">
+              <a href="archivos/pdf.pdf" download><p>Lengua</p></a>
+              <a href=""><p>Matematica</p></a>
+              <a href=""><p>Ciencias Sociales</p></a>
+              <a href=""><p>Ciencias Naturales</p></a>
+              <a href=""><p>Ingles</p></a>
+              <a href=""><p>Educacion Fisica</p></a>
+            </div>
+    
+          
+          <!-- MATERIALES A DESCARGAR -->
+         
+            <div class="text-center" onclick="desplegarMat()" style="background-color: #1E3EB8; cursor: pointer;">
+              <h3  id="text-materiales" style="color: white; font-family: 'Electrolize', sans-serif;">Materiales a descargar +</h3>
+            </div>
+    
+            <div id="materiales" style="background-color: #EFEFEF; display: none;">
+              <div class="table-responsive">
+                 <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Materia</th>
+                      <th>Archivos</th>
+                    </tr>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td><b>Lengua</b></td>
+                      <td><a href="archivos/pdf.pdf" download><p>Actividad 1</p></a></td>
+                    </tr>
+    
+                    <tr>
+                      <td><b>Matematica</b></td>
+                      <td>
+                        <a href="archivos/pdf.pdf" download><p>Ejercicios 1-5</p></a>
+                        <a href="archivos/pdf.pdf" download><p>Ejercicios 1-5</p></a>
+                        <a href="archivos/pdf.pdf" download><p>Ejercicios 1-5</p></a>
+                        <a href="archivos/pdf.pdf" download><p>Ejercicios 1-5</p></a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+    
+    
+          <!-- BARRA LATERAL PARA AGREGAR COSAS EXTRAS -->
+          <div class="col-lg-3 text-center">
+            <div>
+              <hr style="color: #0056b2; border: 1px solid; margin-top: 0;"/>
+              <button class="btn-laterales">NIVEL INICIAL</button><br>
+              <button class="btn-laterales">NIVEL PRIMARIO</button><br>
+              <button class="btn-laterales">NIVEL SECUNDARIO</button><br>
+              <hr style="color: #0056b2; border: 1px solid;"/>
+            </div>>
+    
+            <div>
+              <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15867.812480050881!2d-58.84735978918076!3d-27.472221523872815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456cbb41360fbd%3A0x8a638a6245394af9!2sEscuela+Privada+Taragui!5e0!3m2!1sen!2sar!4v1552491595123"></iframe>
+              <h6>Cualquier consulta estamos a tu disposicion. Nos encontras en Irigoyen 827, Corrientes Capital, Argentina.</h6>
+              <hr style="color: #0056b2; border: 1px solid;"/>
+            </div>       
+          </div>
+    
+        </div>
+      </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; www.escuelataragui.com 2019</p>
+    </div>
+  </footer>
+  
+
+  <!-- AGREGAMOS LOS LINKS PARA CARGAR BOOSTRAP-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- AGREGAMOS LAS FUNCIONES DE JS -->
+  <script src="js/index.js"></script>
+</body>
+</html>
