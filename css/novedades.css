@@ -32,11 +32,12 @@ nav ul a:hover{
 }
 
 .img-triple{
-    padding: 0px 10px 40px 10px;
+    padding: 0px 0px 40px 0px;
 }
 
 .img-triple div div{
-    padding: 0 5px;
+    padding: 0 15px 0 0;
+    
 }
 
 .img-triple img:hover{
@@ -44,12 +45,15 @@ nav ul a:hover{
 }
 
 .texto-img{
-    padding: 15px;
-    margin: 15px;
+    margin-left: 20px;
     position: absolute;
-    bottom: 1px;
+    bottom: 5px;
     left: 0%;
     z-index: 10;
     color: #fff;
     text-align: left;
   }
+
+.img-triple .texto-img{
+    margin-left: 30px;
+}
