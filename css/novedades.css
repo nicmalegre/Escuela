@@ -29,6 +29,8 @@ nav ul a:hover{
 
 .img-doble img:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: blur(1px);
+    
 }
 
 .img-triple{
@@ -42,21 +44,38 @@ nav ul a:hover{
 
 .img-triple img:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: blur(1px);
 }
 
 .texto-img{
     margin-left: 20px;
+    margin-right: 20px;
     position: absolute;
     bottom: 5px;
     left: 0%;
     z-index: 10;
     color: #fff;
     text-align: left;
+    font-family: 'Oswald', sans-serif;
   }
 
 .img-triple .texto-img{
     margin-left: 30px;
 }
 
-#btn-verMas{
-    margin-bottom: 10px;
+.container img{
+    filter: brightness(0.6);
+}
+
+
+
+@media (max-width: 992px) { /* Esto agrego para que cuando se pasa a mobile no queden todas las noticias pegadas*/
+    .img-doble div{
+        padding-bottom: 5px;
+    }
+
+    .img-triple div{
+        padding-bottom: 5px;
+    }
+}
+
