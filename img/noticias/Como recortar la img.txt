@@ -1,0 +1,5 @@
+1. Abrir la imagen en Photoshop.
+2. Seleccionar la opcion para recortar imagen.
+3. Ir arriba donde dice "Sin restricciones".
+4. Cambiar por 2x3(4x6)
+5. La imagen ya esta lista. Subirla a la pagina.
