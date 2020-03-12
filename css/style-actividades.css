@@ -1,0 +1,147 @@
+
+.services-section{
+  background: url(../img/actividades/crayones2.jpg);
+  background-size: cover;
+  padding: 60px 0;
+}
+
+@media (max-width: 992px){ /* Esto es para que cuando se ocupa en el celu, la imagen de fondo de crayones quede centrado */
+  .services-section{
+    background-position: 50%;
+  }
+
+}
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.section-title{
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.border{
+  width: 160px;
+  height: 2px;
+  background: #82ccdd;
+  margin: 40px auto;
+}
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-box{
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+}
+
+.service-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #82ccdd;
+  color: #82ccdd;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear; 
+
+}
+
+#act-sport{
+background-image: url('../img/actividades/sport2.png');
+}
+
+.service-icon i{
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+
+}
+.service-box:hover .service-icon{
+  background: #82ccdd;
+  color: #ddd;
+}
+.service-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.service-desc{
+  font-size: 14px;
+}
+
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+  }
+}
+
+
+.div-actividades h6{
+  margin-top: 15px;
+  color: white;
+}
+
+.div-actividades p{
+  color: white;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.rombo{
+  width: 90px;
+  height: 90px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s linear;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #82ccdd;
+}
+
+#act-deporte{
+  background-image: url('../img/actividades/sport2.png');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+}
+
+#act-idioma{
+  background-image: url('../img/actividades/idioma.png');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+}
+
+#act-campamento{
+  background-image: url('../img/actividades/campamento.png');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+}
