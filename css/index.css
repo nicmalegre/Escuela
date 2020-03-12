@@ -21,6 +21,11 @@ li a{
   font-size: 20px; 
 }
 
+li a{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px; 
+}
+
 
 /* ESTILO PARA "ESCUELA TARAGUI" DENTRO DEL NAVBAR */
 #titEscuela {

@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
-.contenido-principal{
-    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-
 /* ESTILOS PARA EL NAV */
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+
 #nav-principal{
     background-color: #343a40;
 }
@@ -25,6 +22,12 @@ li a{
   font-family: 'Rajdhani', sans-serif;
   font-size: 20px; 
 }
+
+.contenido-principal{
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+
 
 
 /* ESTILO PARA "ESCUELA TARAGUI" DENTRO DEL NAVBAR */
