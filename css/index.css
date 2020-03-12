@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+
 #nav-principal{
     background-color: #343a40;
 }
@@ -12,6 +14,11 @@ li a:hover{
 
 .active a{
   color: #fed136;
+}
+
+li a{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 18px; 
 }
 
 
