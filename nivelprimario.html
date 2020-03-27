@@ -38,10 +38,16 @@
   <link rel="stylesheet" href="css/style-actividades.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
+  <!-- LINK PARA AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- CSS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- JS -->
+
 </head>
 
 
 <body id="page-top">
+  <!-- INICIO EL SCRIPT PARA EJECUTAR LA LIBRERIA DE AOS, LA CUAL ME PERMITE GENERAR MOVIMIENTO EN LOS ELEMENTOS -->
+  <script>AOS.init();</script>
   <!-- CONTENIDO DEL NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark" id="nav-principal">
     <div class="container">
@@ -67,11 +73,8 @@
 
   <br>
   <!-- CONTENIDO DE LA PAGINA PRINCIPAL - NIVEL INICIAL -->
-  
-  <!-- ACERCA DEL COLEGIO -->
-  <br>
   <div class="container">
-    <div class="row text-center">
+    <div data-aos="fade-up" class="row text-center">
       <div class="col-lg-12 mb-4">
         <h2>MATERIAL DE TRABAJO</h2>
         <hr style="color: #0056b2; border: 1px solid;"/>
@@ -81,7 +84,7 @@
         </div>
       </div>
     </div>
-    <div class="row" style="padding-bottom: 15px;">
+    <div data-aos="fade-right" class="row" style="padding-bottom: 15px;">
       <div class="col-lg-12">
         <div class="info-descarga">
           <i class="fas fa-info-circle"></i>
@@ -91,7 +94,7 @@
     </div>
 
     <div class="text-center" id="programas" style="background-color: #EFEFEF;">
-        <div class="table-responsive" style="margin-bottom: 15px;">
+        <div data-aos="fade-left" class="table-responsive" style="margin-bottom: 15px;">
             <table class="table table-striped">
                 <thead>
                   <tr style="background-color: #343a40; color: white; font-size: 16px;">
@@ -104,7 +107,11 @@
                 <tbody>
                   <tr>
                     <td><b>1° Grado</b></td>
-                    <td><a href="archivos/primario/primer grado/primergrado.docx" download><p>Primer Grado</p></a></td>
+                    <td>
+                      <a href="archivos/primario/primer grado/primergrado.docx" download><p>Primer Grado</p></a>
+                      <a href="archivos/primario/primer grado/Parte 2-ACTIVIDADES SEÑO MARIELA 2.pdf" download><p>Parte 2: Primer Grado</p></a>
+                      <a href="archivos/primario/primer grado/Parte 2-Cuentomaspequeños.pdf" download><p>Cuento para pequeños</p></a>
+                    </td>
                     <td><a href="mailto:marielarivero429@gmail.com">marielarivero429@gmail.com</a></td>
                   </tr>
     
@@ -112,6 +119,7 @@
                     <td><b>2° Grado</b></td>
                     <td>
                         <a href="archivos/primario/segundo grado/segundogrado.docx" download><p>Segundo Grado</p></a>
+                        <a href="archivos/primario/segundo grado/Parte 2-Cuadernillo de Actividades.docx" download><p>Parte 2: Segundo Grado</p></a>
                     </td>
                     <td>
                         <a href="mailto:zalazarmari17@gmail.com"><p>zalazarmari17@gmail.com</p></a>
@@ -122,8 +130,11 @@
                     <td><b>3° Grado</b></td>
                     <td>
                       <a href="archivos/primario/tercer grado/lengua.docx" download><p>Lengua</p></a>
+                      <a href="archivos/primario/tercer grado/Parte 2-Área lengua.docx" download><p>Parte 2: Lengua</p></a>
                       <a href="archivos/primario/tercer grado/matematica.docx" download><p>Matemática</p></a>
+                      <a href="archivos/primario/tercer grado/Parte 2-Área Matemática.docx" download><p>Parte 2: Matemática</p></a>
                       <a href="archivos/primario/tercer grado/ciencias.docx" download><p>Ciencias</p></a>
+                      <a href="archivos/primario/tercer grado/Parte 2-Área ciencias.docx" download><p> Parte 2:Ciencias</p></a>
                     </td>
                     <td>
                       <a href="mailto:lorenormandin@hotmail.com">lorenormandin@hotmail.com</a><br><br>
@@ -132,7 +143,13 @@
 
                   <tr>
                     <td><b>4° Grado</b></td>
-                    <td><a href="archivos/primario/cuarto grado/cuartogrado.docx" download><p>Cuarto Grado</p></a></td>
+                    <td>
+                      <a href="archivos/primario/cuarto grado/cuartogrado.docx" download><p>Cuarto Grado</p></a>
+                      <a href="archivos/primario/cuarto grado/Parte 2-Lengua.docx" download><p>Parte 2: Lengua</p></a>
+                      <a href="archivos/primario/cuarto grado/Parte 2-MATEMATICA4to.docx" download><p>Parte 2: Matemática</p></a>
+                      <a href="archivos/primario/cuarto grado/Parte 2-Sociales.docx" download><p>Parte 2: Ciencias Sociales</p></a>
+                      <a href="archivos/primario/cuarto grado/Parte 2-Naturales.pdf" download><p>Parte 2: Ciencias Naturales</p></a>
+                    </td>
                     <td>
                       <a>Lengua: </a><a href="mailto:mlmaradey@hotmail.com">mlmaradey@hotmail.com</a><br>
                       <a>Matemática: </a><a href="mailto:raquelgodoy102@gmail.com">raquelgodoy102@gmail.com</a><br>
@@ -142,7 +159,11 @@
 
                   <tr>
                     <td><b>5° Grado</b></td>
-                    <td><a href="archivos/primario/quinto grado/quintogrado.docx" download><p>Quinto Grado</p></a></td>
+                    <td>
+                      <a href="archivos/primario/quinto grado/quintogrado.docx" download><p>Quinto Grado</p></a>
+                      <a href="archivos/primario/quinto grado/Parte 2-Lengua.docx" download><p>Parte 2: Lengua</p></a>
+                      <a href="archivos/primario/quinto grado/Parte2-MATEMATICA5to.docx" download><p>Parte 2: Matemática</p></a>
+                    </td>
                     <td>
                       <a>Lengua: </a><a href="mailto:mlmaradey@hotmail.com">mlmaradey@hotmail.com</a><br>
                       <a>Matemática: </a><a href="mailto:raquelgodoy102@gmail.com">raquelgodoy102@gmail.com</a><br>
@@ -152,7 +173,13 @@
 
                   <tr>
                     <td><b>6° Grado</b></td>
-                    <td><a href="archivos/primario/sexto grado/sextogrado.pdf" download><p>Sexto Grado</p></a></td>
+                    <td>
+                      <a href="archivos/primario/sexto grado/sextogrado.pdf" download><p>Sexto Grado</p></a>
+                      <a href="archivos/primario/sexto grado/Parte 2-Lengua.docx" download><p>Parte 2: Lengua</p></a>
+                      <a href="archivos/primario/sexto grado/Parte2-MATEMATICA 6to.docx" download><p>Parte 2: Matemática</p></a>
+                      <a href="archivos/primario/sexto grado/Parte2-Sociales.pdf" download><p>Parte 2: Ciencias Sociales</p></a>
+                      <a href="archivos/primario/sexto grado/Parte2-Naturales.pdf" download><p>Parte 2: Ciencias Naturales</p></a>
+                    </td>
                     <td>
                       <a>Lengua: </a><a href="mailto:mlmaradey@hotmail.com">mlmaradey@hotmail.com</a><br>
                       <a>Matemática: </a><a href="mailto:raquelgodoy102@gmail.com">raquelgodoy102@gmail.com</a><br>
@@ -163,14 +190,44 @@
               </table>
         </div>
       </div>
+  </div>
 
 
+  <!-- PIZARRON DE NOTICIAS INTERESANTES -->
+  <div data-aos="fade-up" class="container pizarron-principal text-center">
+    <div class="row text-center">
+      <div class="col-lg-12">
+        <h1>#QuedateEnCasa</h1>
+        <p id="subtitulo">Presiona la actividad que más te guste y a divertirse.<p>
+      </div>
+    </div>
 
+    <div class="row">
+      <div data-aos="fade-left" class="col-lg-6 div-material">
+        <div class="btn-container">
+          <a href="https://www.educ.ar/recursos/150936/seguimos-educando"><img class="img-fluid" src="archivos/educar.JPG"></a>
+          <p>Compartimos un portal donde encontrarán una colección de materiales y recursos educativos digitales organizados por nivel educativo y área temática.</p>
+          <!--<button class="btn">Ver más</button>-->
+        </div>
+      </div>
+      <div data-aos="fade-up" class="col-lg-3 div-material">
+        <div class="btn-container">
+          <a href="archivos/Recetario.pdf"><img class="img-fluid" src="archivos/recetario.JPG"></a>
+          <p>Un conjunto de recetas educativas para hacer en familia durante este período de quedarse en casa.</p>
+          <!--<button class="btn">Ver más</button>-->
+        </div>          
+      </div>
+      <div data-aos="fade-right" class="col-lg-3 div-material">
+        <div class="btn-container">
+          <a href="archivos/Cuento.pdf"><img class="img-fluid" src="archivos/escudo.JPG"></a>
+          <p>Cuento infantil sobre la situación actual para aquellos padres que quieran concientizar a sus hijos.</p>
+          <!--<button class="btn">Ver más</button>-->
+        </div>
+      </div>
+    </div> 
   </div>
 
   
-  
-
   <!-- FOOTER -->
   <footer class="bg-dark">
     <div class="container">
