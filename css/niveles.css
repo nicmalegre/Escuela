@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster|Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cookie|Gloria+Hallelujah|Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Khand&display=swap');
 
 #nav-principal{
     background-color: #343a40;
@@ -158,8 +161,106 @@ li a{
   border-bottom: 3px solid #343a40;
 }
 
-.table td, .table th{
- 
+
+/* ESTILO PARA EL PIZARRON DE MATERIAL COMPLEMENTARIO */
+
+.pizarron-principal{
+  background-image: url(../img/board2.jpg);
+  background-size: 100%;
+  padding-bottom: 40px;
+  margin-bottom: 10px;
+  /*border:solid 5px; 
+  border-color: black;  
+  border-radius: 5px;*/
+
+}
+
+
+
+.pizarron-principal h1{
+  color: white;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 80px;
+  text-shadow: 2px 2px black;
+}
+
+#subtitulo{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Cookie', cursive;
+}
+
+/*ESTILO PARA LAS IMAGENES DEL PIZARRON*/
+.pizarron-principal img{
+  height: 250px;
+  filter: brightness(1);
+  box-shadow: 0 15px 20px 0 black, 0 15px 20px 0 black;
+
+  border:8px solid;
+  border-image-source: url(../archivos/cuadro.png);
+  border-image-slice: 75;
+  text-align: justify;
+}
+
+.pizarron-principal img:hover{
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.19), 0 15px 15px 0 rgba(0, 0, 0, 0.19);
+  filter: brightness(1.2);
+}
+
+/*ESTILO PARA EL BOTON VER MAS DE LA IMAGEN*/
+.btn-container{
+  position: relative;
+}
+
+.btn-container .btn{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #343a40;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;  
+}
+
+.btn-container .btn:hover {
+  background-color: black;
+  box-shadow: azure;
+}
+
+.btn-container p{
+  color: white;
+  padding-top: 25px;
+  font-family: 'Khand', sans-serif; 
+  font-style: inherit;
+  font-size: 20px;
+}
+
+
+
+/*ESTILO PARA DISPOSITIVOS MOVILES*/
+@media (max-width: 992px) { /* Esto agrego para que cuando se pasa a mobile no queden todas las noticias pegadas*/
+  .pizarron-principal img{
+    height: auto;
+  }
+
+  .pizarron-principal .div-material{
+    padding-top: 15px;
+  }
+
+  .pizarron-principal h1{
+    font-size: 35px;
+  }
+
+  #subtitulo{
+    font-size: 35px;
+  }
 }
 
 
