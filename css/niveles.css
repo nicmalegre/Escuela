@@ -129,15 +129,14 @@ li a{
   /* ESTILO PARA LA SECCION DE INFO PARA LOS NIVELES DE DESCARGA DE ARCHIVOS */
   
 .info-descarga{ 
-    background-color: yellow; 
+    background-color: #343a40;
+    color: white;
     border: 1px solid;
     border-radius: 20px;
-    margin-right: 20%;
+    margin-right: 40%;
     display: flex; /* ESTO ES PARA QUE EL ICON Y LA ETIQUETA a QUEDEN BIEN ALINEADOS */
     align-items: center;
   }
-
-
 
 .info-descarga i{ 
       font-size:30px; 
@@ -269,7 +268,7 @@ li a{
   margin-bottom: 5px;
 }
 
-/*.btn-archivos :hover{
+.btn-archivos :hover{
   box-shadow: inset 0 0 50px rgba(56, 53, 53, 0.829); 
 }
 
@@ -277,7 +276,7 @@ li a{
   color: white; 
   font-family: 'Ubuntu Condensed', sans-serif;
   line-height: 50px; /* Para centrar verticalemnte tiene este tiene que tener el mismo height que el div que es btn-archivos */
-/*}
+}
 
 
 
