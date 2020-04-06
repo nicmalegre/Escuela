@@ -139,133 +139,355 @@
       <div class="col-lg-12">
         <div class="info-descarga">
           <i class="fas fa-info-circle"></i>
-          <a>Para descargar un archivo debe presionar un click sobre el nombre del mismo (<u>se encuentra en color azul</u>).</a>
+          <a>Para visualizar las actividades debe <b>presionar</b> sobre el nivel que está interesado.</a>
         </div>
       </div>
     </div>
 
-    <div class="text-center" id="programas" style="background-color: #EFEFEF;">
-        <div data-aos="fade-left" class="table-responsive" style="margin-bottom: 15px;">
-            <table class="table table-striped">
-                <thead>
-                  <tr style="background-color: #343a40; color: white; font-size: 16px;">
-                    <th>Grado</th>
-                    <th>Material</th>
-                    <th>Correo de consulta</th>
-                  </tr>
-                </thead>
+    <div id="div-primerGrado" class="text-center btn-archivos" onclick="desplegarPrimerGrado()">
+      <h3 id="text-primerGrado">Primer Grado +</h3>
+    </div>    
+    <div class="text-center" id="archivos-primerGrado" style="background-color: #EFEFEF; display: none;">
+        <div class="text-center" style="background-color: #EFEFEF;">
+          <div class="table-responsive" style="margin-bottom: 15px;">
+            <table class="table">
+              <thead>
+                <tr style="background-color: #343a40; color: white; font-size: 16px;">
+                  <th>Materia</th>
+                  <th>Material</th>
+                  <th>Correo de consulta/entrega</th>
+                </tr>
+              </thead>
     
-                <tbody>
-                  <tr>
-                    <td><b>1° Grado</b></td>
-                    <td>
-                      <a href="archivos/primario/primer grado/primergrado.docx" download><p>Primer Grado</p></a>
+              <tbody>
+                <tr>
+                  <td><p><b>Actividades Seño Mariela</b></p></td>
+                  <td>
+                      <a href="archivos/primario/primer grado/primergrado.docx" download><p>Parte 1: Primer Grado</p></a>
                       <a href="archivos/primario/primer grado/Parte 2-ACTIVIDADES SEÑO MARIELA 2.pdf" download><p>Parte 2: Primer Grado</p></a>
                       <a href="archivos/primario/primer grado/Parte3-ACTIVIDADES SEÑO MARIELA.pdf" download><p>Parte 3: Primer Grado</p></a>
                       <a href="archivos/primario/primer grado/Parte 2-Cuentomaspequeños.pdf" download><p>Cuento para pequeños</p></a>
-                      <a href="archivos/primario/primer grado/F.E.V 1° y 2° actividades virtuales.docx" download><p>Actividades de FEV</p></a>
-                    </td>
-                    <td><a href="mailto:marielarivero429@gmail.com">marielarivero429@gmail.com</a></td>
-                  </tr>
-    
-                  <tr>
-                    <td><b>2° Grado</b></td>
-                    <td>
-                        <a href="archivos/primario/segundo grado/segundogrado.docx" download><p>Segundo Grado</p></a>
-                        <a href="archivos/primario/segundo grado/Parte 2-Cuadernillo de Actividades.docx" download><p>Parte 2: Segundo Grado</p></a>
-                        <a href="archivos/primario/segundo grado/Parte3-CUADERNILLO.docx" download><p>Parte 3: Cuadernillo</p></a>
-                        <a href="archivos/primario/primer grado/F.E.V 1° y 2° actividades virtuales.docx" download><p>Actividades de FEV</p></a>
-                    </td>
-                    <td>
-                        <a href="mailto:zalazarmari17@gmail.com"><p>zalazarmari17@gmail.com</p></a>
-                    </td>
-                  </tr>
-    
-                  <tr>
-                    <td><b>3° Grado</b></td>
-                    <td>
-                      <a href="archivos/primario/tercer grado/lengua.docx" download><p>Lengua</p></a>
-                      <a href="archivos/primario/tercer grado/Parte 2-Área lengua.docx" download><p>Parte 2: Lengua</p></a>
-                      <a href="archivos/primario/tercer grado/Parte3-Lengua.docx" download><p>Parte 3: Lengua</p></a>
-                      <a href="archivos/primario/tercer grado/matematica.docx" download><p>Matemática</p></a>
-                      <a href="archivos/primario/tercer grado/Parte 2-Área Matemática.docx" download><p>Parte 2: Matemática</p></a>
-                      <a href="archivos/primario/tercer grado/Parte3-matematica.docx" download><p>Parte 3: Matemática</p></a>
-                      <a href="archivos/primario/tercer grado/ciencias.docx" download><p>Ciencias</p></a>
-                      <a href="archivos/primario/tercer grado/Parte 2-Área ciencias.docx" download><p> Parte 2: Ciencias</p></a>
-                      <a href="archivos/primario/tercer grado/Parte3-Ciencias.docx" download><p> Parte 3: Ciencias</p></a>
-                      <a href="archivos/primario/tercer grado/F.E.V 3° actividades virtuales..docx" download><p>Actividades de FEV</p></a>
-                    </td>
-                    <td>
-                      <a href="mailto:lorenormandin@hotmail.com">lorenormandin@hotmail.com</a><br><br>
-                    </td>
-                  </tr>
+                  </td>
+                  <td><a href="mailto:marielarivero429@gmail.com">marielarivero429@gmail.com</a></td>
+                </tr>
 
-                  <tr>
-                    <td><b>4° Grado</b></td>
-                    <td>
-                      <a href="archivos/primario/cuarto grado/cuartogrado.docx" download><p>Cuarto Grado</p></a>
-                      <a href="archivos/primario/cuarto grado/Parte 2-Lengua.docx" download><p>Parte 2: Lengua</p></a>
-                      <a href="archivos/primario/cuarto grado/Parte3-Lengua.docx" download><p>Parte 3: Lengua</p></a>
-                      <a href="archivos/primario/cuarto grado/Parte 2-MATEMATICA4to.docx" download><p>Parte 2: Matemática</p></a>
-                      <a href="archivos/primario/cuarto grado/Parte3-Matematica.docx" download><p>Parte 3: Matemática</p></a>
-                      <a href="archivos/primario/cuarto grado/Parte 2-Sociales.docx" download><p>Parte 2: Ciencias Sociales</p></a>
-                      <a href="archivos/primario/cuarto grado/Parte3-Sociales.docx" download><p>Parte 3: Ciencias Sociales</p></a>
-                      <a href="archivos/primario/cuarto grado/Parte 2-Naturales.pdf" download><p>Parte 2: Ciencias Naturales</p></a>
-                      <a href="archivos/primario/cuarto grado/Parte3-Naturales.docx" download><p>Parte 3: Ciencias Naturales</p></a>
-                      <a href="archivos/primario/cuarto grado/F.E.V. 4° y 5° actividades virtuales..docx" download><p>Actividades de FEV</p></a>
-                    </td>
-                    <td>
-                      <a>Lengua: </a><a href="mailto:mlmaradey@hotmail.com">mlmaradey@hotmail.com</a><br>
-                      <a>Matemática: </a><a href="mailto:raquelgodoy102@gmail.com">raquelgodoy102@gmail.com</a><br>
-                      <a>Ciencias: </a><a href="mailto:raquelgodoy102@gmail.com">lopezbarrioslaura@gmail.com</a><br>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td><b>5° Grado</b></td>
-                    <td>
-                      <a href="archivos/primario/quinto grado/quintogrado.docx" download><p>Quinto Grado</p></a>
-                      <a href="archivos/primario/quinto grado/Parte 2-Lengua.docx" download><p>Parte 2: Lengua</p></a>
-                      <a href="archivos/primario/quinto grado/Parte3-Lengua.docx" download><p>Parte 3: Lengua</p></a>
-                      <a href="archivos/primario/quinto grado/Parte2-MATEMATICA5to.docx" download><p>Parte 2: Matemática</p></a>
-                      <a href="archivos/primario/quinto grado/Parte3-Matematica.docx" download><p>Parte 3: Matemática</p></a>
-                      <a href="archivos/primario/quinto grado/Parte2-SOCIALES 5TO.pdf" download><p>Parte 2: Ciencias Sociales</p></a>
-                      <a href="archivos/primario/quinto grado/Parte3-Sociales.docx" download><p>Parte 3: Ciencias Sociales</p></a>
-                      <a href="archivos/primario/quinto grado/Parte2-NATURALES 5TO.pdf" download><p>Parte 2: Ciencias Naturales</p></a>
-                      <a href="archivos/primario/quinto grado/Parte3-Naturales.docx" download><p>Parte 3: Ciencias Naturales</p></a>
-                      <a href="archivos/primario/cuarto grado/F.E.V. 4° y 5° actividades virtuales..docx" download><p>Actividades de FEV</p></a>
-                    </td>
-                    <td>
-                      <a>Lengua: </a><a href="mailto:mlmaradey@hotmail.com">mlmaradey@hotmail.com</a><br>
-                      <a>Matemática: </a><a href="mailto:raquelgodoy102@gmail.com">raquelgodoy102@gmail.com</a><br>
-                      <a>Ciencias: </a><a href="mailto:raquelgodoy102@gmail.com">lopezbarrioslaura@gmail.com</a><br>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td><b>6° Grado</b></td>
-                    <td>
-                      <a href="archivos/primario/sexto grado/sextogrado.pdf" download><p>Sexto Grado</p></a>
-                      <a href="archivos/primario/sexto grado/Parte 2-Lengua.pdf" download><p>Parte 2: Lengua</p></a>
-                      <a href="archivos/primario/sexto grado/Parte3-Lengua.pdf" download><p>Parte 3: Lengua</p></a>
-                      <a href="archivos/primario/sexto grado/Parte2-MATEMATICA 6to.pdf" download><p>Parte 2: Matemática</p></a>
-                      <a href="archivos/primario/sexto grado/Parte3-Matematica.pdf" download><p>Parte 3: Matemática</p></a>
-                      <a href="archivos/primario/sexto grado/Parte2-Sociales.pdf" download><p>Parte 2: Ciencias Sociales</p></a>
-                      <a href="archivos/primario/sexto grado/Parte3-Sociales.pdf" download><p>Parte 3: Ciencias Sociales</p></a>
-                      <a href="archivos/primario/sexto grado/Parte2-Naturales.pdf" download><p>Parte 2: Ciencias Naturales</p></a>
-                      <a href="archivos/primario/sexto grado/Parte3-Naturales.pdf" download><p>Parte 3: Ciencias Naturales</p></a>
-                      <a href="archivos/primario/sexto grado/F.E.V 6° actividades virtuales.pdf" download><p>Actividades de FEV</p></a>
-                    </td>
-                    <td>
-                      <a>Lengua: </a><a href="mailto:mlmaradey@hotmail.com">mlmaradey@hotmail.com</a><br>
-                      <a>Matemática: </a><a href="mailto:raquelgodoy102@gmail.com">raquelgodoy102@gmail.com</a><br>
-                      <a>Ciencias: </a><a href="mailto:raquelgodoy102@gmail.com">lopezbarrioslaura@gmail.com</a><br>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                <tr>
+                  <td><p><b>F.E.V.</b></p></td>
+                  <td><a href="archivos/primario/primer grado/F.E.V 1° y 2° actividades virtuales.docx" download><p>Actividades de FEV</p></a></td>
+                  <td></td>
+                </tr>   
+              </tbody>
+            </table>
+          </div>
         </div>
-      </div>
+    </div>
+
+    <div id="div-segundoGrado" class="text-center btn-archivos" onclick="desplegarSegundoGrado()">
+      <h3 id="text-segundoGrado">Segundo Grado +</h3>
+    </div>    
+    <div class="text-center" id="archivos-segundoGrado" style="background-color: #EFEFEF; display: none;">
+        <div class="text-center" style="background-color: #EFEFEF;">
+          <div class="table-responsive" style="margin-bottom: 15px;">
+            <table class="table">
+              <thead>
+                <tr style="background-color: #343a40; color: white; font-size: 16px;">
+                  <th>Materia</th>
+                  <th>Material</th>
+                  <th>Correo de consulta/entrega</th>
+                </tr>
+              </thead>
+    
+              <tbody>
+                <tr>
+                  <td><p><b>Actividades Segundo Grado</b></p></td>
+                  <td>
+                    <a href="archivos/primario/segundo grado/segundogrado.docx" download><p>Parte 1: Segundo Grado</p></a>
+                    <a href="archivos/primario/segundo grado/Parte 2-Cuadernillo de Actividades.docx" download><p>Parte 2: Segundo Grado</p></a>
+                    <a href="archivos/primario/segundo grado/Parte3-CUADERNILLO.docx" download><p>Parte 3: Cuadernillo</p></a>
+                  </td>
+                  <td><a href="mailto:zalazarmari17@gmail.com"><p>zalazarmari17@gmail.com</p></a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>F.E.V.</b></p></td>
+                  <td><a href="archivos/primario/primer grado/F.E.V 1° y 2° actividades virtuales.docx" download><p>Actividades de FEV</p></a></td>
+                  <td></td>
+                </tr>   
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+
+    <div id="div-tercerGrado" class="text-center btn-archivos" onclick="desplegarTercerGrado()">
+      <h3 id="text-tercerGrado">Tercer Grado +</h3>
+    </div>    
+    <div class="text-center" id="archivos-tercerGrado" style="background-color: #EFEFEF; display: none;">
+        <div class="text-center" style="background-color: #EFEFEF;">
+          <div class="table-responsive" style="margin-bottom: 15px;">
+            <table class="table">
+              <thead>
+                <tr style="background-color: #343a40; color: white; font-size: 16px;">
+                  <th>Materia</th>
+                  <th>Material</th>
+                  <th>Correo de consulta/entrega</th>
+                </tr>
+              </thead>
+    
+              <tbody>
+                <tr>
+                  <td><p><b>Lengua</b></p></td>
+                  <td>
+                    <a href="archivos/primario/tercer grado/lengua.docx" download><p>Parte 1: Lengua</p></a>
+                    <a href="archivos/primario/tercer grado/Parte 2-Área lengua.docx" download><p>Parte 2: Lengua</p></a>
+                    <a href="archivos/primario/tercer grado/Parte3-Lengua.docx" download><p>Parte 3: Lengua</p></a>                    
+                  </td>
+                  <td><a href="mailto:lorenormandin@hotmail.com">lorenormandin@hotmail.com</a><br><br></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Matemática</b></p></td>
+                  <td>
+                    <a href="archivos/primario/tercer grado/matematica.docx" download><p>Parte 1: Matemática</p></a>
+                    <a href="archivos/primario/tercer grado/Parte 2-Área Matemática.docx" download><p>Parte 2: Matemática</p></a>
+                    <a href="archivos/primario/tercer grado/Parte3-matematica.docx" download><p>Parte 3: Matemática</p></a>
+                  </td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Ciencias</b></p></td>
+                  <td>
+                    <a href="archivos/primario/tercer grado/ciencias.docx" download><p>Parte 1: Ciencias</p></a>
+                    <a href="archivos/primario/tercer grado/Parte 2-Área ciencias.docx" download><p> Parte 2: Ciencias</p></a>
+                    <a href="archivos/primario/tercer grado/Parte3-Ciencias.docx" download><p> Parte 3: Ciencias</p></a>                    
+                  </td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>F.E.V.</b></p></td>
+                  <td><a href="archivos/primario/tercer grado/F.E.V 3° actividades virtuales..docx" download><p>Actividades de FEV</p></a></td>
+                  <td></td>
+                </tr>   
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+
+    <div id="div-cuartoGrado" class="text-center btn-archivos" onclick="desplegarCuartoGrado()">
+      <h3 id="text-cuartoGrado">Cuarto Grado +</h3>
+    </div>    
+    <div class="text-center" id="archivos-cuartoGrado" style="background-color: #EFEFEF; display: none;">
+        <div class="text-center" style="background-color: #EFEFEF;">
+          <div class="table-responsive" style="margin-bottom: 15px;">
+            <table class="table">
+              <thead>
+                <tr style="background-color: #343a40; color: white; font-size: 16px;">
+                  <th>Materia</th>
+                  <th>Material</th>
+                  <th>Correo de consulta/entrega</th>
+                </tr>
+              </thead>
+    
+              <tbody>
+                <tr>
+                  <td><p><b>Actividades Cuarto Grado</b></p></td>
+                  <td>
+                    <a href="archivos/primario/cuarto grado/cuartogrado.docx" download><p>Cuarto Grado</p></a>              
+                  </td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Lengua</b></p></td>
+                  <td>
+                    <a href="archivos/primario/cuarto grado/Parte 2-Lengua.docx" download><p>Parte 2: Lengua</p></a>
+                    <a href="archivos/primario/cuarto grado/Parte3-Lengua.docx" download><p>Parte 3: Lengua</p></a>                  
+                  </td>
+                  <td><a href="mailto:mlmaradey@hotmail.com">mlmaradey@hotmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Matemática</b></p></td>
+                  <td>
+                    <a href="archivos/primario/cuarto grado/Parte 2-MATEMATICA4to.docx" download><p>Parte 2: Matemática</p></a>
+                    <a href="archivos/primario/cuarto grado/Parte3-Matematica.docx" download><p>Parte 3: Matemática</p></a>
+                  </td>
+                  <td><a href="mailto:raquelgodoy102@gmail.com">raquelgodoy102@gmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Ciencias Sociales</b></p></td>
+                  <td>
+                    <a href="archivos/primario/cuarto grado/Parte 2-Sociales.docx" download><p>Parte 2: Ciencias Sociales</p></a>
+                    <a href="archivos/primario/cuarto grado/Parte3-Sociales.docx" download><p>Parte 3: Ciencias Sociales</p></a>                  
+                  </td>
+                  <td><a href="mailto:raquelgodoy102@gmail.com">lopezbarrioslaura@gmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Ciencias Naturales</b></p></td>
+                  <td>
+                    <a href="archivos/primario/cuarto grado/Parte 2-Naturales.pdf" download><p>Parte 2: Ciencias Naturales</p></a>
+                    <a href="archivos/primario/cuarto grado/Parte3-Naturales.docx" download><p>Parte 3: Ciencias Naturales</p></a>                 
+                  </td>
+                  <td><a href="mailto:raquelgodoy102@gmail.com">lopezbarrioslaura@gmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>F.E.V.</b></p></td>
+                  <td><a href="archivos/primario/cuarto grado/F.E.V. 4° y 5° actividades virtuales..docx" download><p>Actividades de FEV</p></a></td>
+                  <td></td>
+                </tr>   
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+
+    <div id="div-cuartoGrado" class="text-center btn-archivos" onclick="desplegarQuintoGrado()">
+      <h3 id="text-quintoGrado">Quinto Grado +</h3>
+    </div>    
+    <div class="text-center" id="archivos-quintoGrado" style="background-color: #EFEFEF; display: none;">
+        <div class="text-center" style="background-color: #EFEFEF;">
+          <div class="table-responsive" style="margin-bottom: 15px;">
+            <table class="table">
+              <thead>
+                <tr style="background-color: #343a40; color: white; font-size: 16px;">
+                  <th>Materia</th>
+                  <th>Material</th>
+                  <th>Correo de consulta/entrega</th>
+                </tr>
+              </thead>
+    
+              <tbody>
+                <tr>
+                  <td><p><b>Actividades Quinto Grado</b></p></td>
+                  <td>
+                    <a href="archivos/primario/quinto grado/quintogrado.docx" download><p>Quinto Grado</p></a>             
+                  </td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Lengua</b></p></td>
+                  <td>
+                    <a href="archivos/primario/quinto grado/Parte 2-Lengua.docx" download><p>Parte 2: Lengua</p></a>
+                    <a href="archivos/primario/quinto grado/Parte3-Lengua.docx" download><p>Parte 3: Lengua</p></a>                 
+                  </td>
+                  <td><a href="mailto:mlmaradey@hotmail.com">mlmaradey@hotmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Matemática</b></p></td>
+                  <td>
+                    <a href="archivos/primario/quinto grado/Parte2-MATEMATICA5to.docx" download><p>Parte 2: Matemática</p></a>
+                    <a href="archivos/primario/quinto grado/Parte3-Matematica.docx" download><p>Parte 3: Matemática</p></a>
+                  </td>
+                  <td><a href="mailto:raquelgodoy102@gmail.com">raquelgodoy102@gmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Ciencias Sociales</b></p></td>
+                  <td>
+                    <a href="archivos/primario/quinto grado/Parte2-SOCIALES 5TO.pdf" download><p>Parte 2: Ciencias Sociales</p></a>
+                      <a href="archivos/primario/quinto grado/Parte3-Sociales.docx" download><p>Parte 3: Ciencias Sociales</p></a>               
+                  </td>
+                  <td><a href="mailto:raquelgodoy102@gmail.com">lopezbarrioslaura@gmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Ciencias Naturales</b></p></td>
+                  <td>
+                    <a href="archivos/primario/quinto grado/Parte2-NATURALES 5TO.pdf" download><p>Parte 2: Ciencias Naturales</p></a>
+                    <a href="archivos/primario/quinto grado/Parte3-Naturales.docx" download><p>Parte 3: Ciencias Naturales</p></a>                
+                  </td>
+                  <td><a href="mailto:raquelgodoy102@gmail.com">lopezbarrioslaura@gmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>F.E.V.</b></p></td>
+                  <td><a href="archivos/primario/cuarto grado/F.E.V. 4° y 5° actividades virtuales..docx" download><p>Actividades de FEV</p></a></td>
+                  <td></td>
+                </tr>   
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+
+    <div id="div-sextoGrado" class="text-center btn-archivos" onclick="desplegarSextoGrado()">
+      <h3 id="text-cuartoGrado">Sexto Grado +</h3>
+    </div>    
+    <div class="text-center" id="archivos-sextoGrado" style="background-color: #EFEFEF; display: none;">
+        <div class="text-center" style="background-color: #EFEFEF;">
+          <div class="table-responsive" style="margin-bottom: 15px;">
+            <table class="table">
+              <thead>
+                <tr style="background-color: #343a40; color: white; font-size: 16px;">
+                  <th>Materia</th>
+                  <th>Material</th>
+                  <th>Correo de consulta/entrega</th>
+                </tr>
+              </thead>
+    
+              <tbody>
+                <tr>
+                  <td><p><b>Actividades Sexto Grado</b></p></td>
+                  <td>
+                    <a href="archivos/primario/sexto grado/sextogrado.pdf" download><p>Sexto Grado</p></a>          
+                  </td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Lengua</b></p></td>
+                  <td>
+                    <a href="archivos/primario/sexto grado/Parte 2-Lengua.pdf" download><p>Parte 2: Lengua</p></a>
+                    <a href="archivos/primario/sexto grado/Parte3-Lengua.pdf" download><p>Parte 3: Lengua</p></a>                  
+                  </td>
+                  <td><a href="mailto:mlmaradey@hotmail.com">mlmaradey@hotmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Matemática</b></p></td>
+                  <td>
+                    <a href="archivos/primario/sexto grado/Parte2-MATEMATICA 6to.pdf" download><p>Parte 2: Matemática</p></a>
+                    <a href="archivos/primario/sexto grado/Parte3-Matematica.pdf" download><p>Parte 3: Matemática</p></a>
+                  </td>
+                  <td><a href="mailto:raquelgodoy102@gmail.com">raquelgodoy102@gmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Ciencias Sociales</b></p></td>
+                  <td>
+                    <a href="archivos/primario/sexto grado/Parte2-Sociales.pdf" download><p>Parte 2: Ciencias Sociales</p></a>
+                    <a href="archivos/primario/sexto grado/Parte3-Sociales.pdf" download><p>Parte 3: Ciencias Sociales</p></a>                 
+                  </td>
+                  <td><a href="mailto:raquelgodoy102@gmail.com">lopezbarrioslaura@gmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>Ciencias Naturales</b></p></td>
+                  <td>
+                    <a href="archivos/primario/sexto grado/Parte2-Naturales.pdf" download><p>Parte 2: Ciencias Naturales</p></a>
+                    <a href="archivos/primario/sexto grado/Parte3-Naturales.pdf" download><p>Parte 3: Ciencias Naturales</p></a>                 
+                  </td>
+                  <td><a href="mailto:raquelgodoy102@gmail.com">lopezbarrioslaura@gmail.com</a></td>
+                </tr>
+
+                <tr>
+                  <td><p><b>F.E.V.</b></p></td>
+                  <td><a href="archivos/primario/sexto grado/F.E.V 6° actividades virtuales.pdf" download><p>Actividades de FEV</p></a></td>
+                  <td></td>
+                </tr>   
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
   </div>
 
 

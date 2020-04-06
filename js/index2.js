@@ -108,7 +108,7 @@ function openModal() {
   
   }
 
- //FUNCIONES PARA MOSTRAR Y ESCONDER ELEMENTOS EN LA PAGINA DE NIVELES
+ //FUNCIONES PARA MOSTRAR Y ESCONDER ELEMENTOS EN LA PAGINA DE NIVELES SECUNDARIO
 function desplegarPrimer(){
 if ((document.getElementById("archivos-primer").style.display) == "none")
 {document.getElementById("archivos-primer").style.display = "block";
@@ -204,3 +204,88 @@ function desplegarSexto(){
   }
   return;
 }
+
+ //FUNCIONES PARA MOSTRAR Y ESCONDER ELEMENTOS EN LA PAGINA DE NIVELES PRIMARIO
+ function desplegarPrimerGrado(){
+  if ((document.getElementById("archivos-primerGrado").style.display) == "none")
+  {document.getElementById("archivos-primerGrado").style.display = "block";
+  document.getElementById("div-primerGrado").style.backgroundColor = "rgb(13, 28, 88)";
+  document.getElementById("text-primerGrado").innerHTML = "Primer Grado -";
+  }
+  else
+  {document.getElementById("archivos-primerGrado").style.display = "none";
+  document.getElementById("div-primerGrado").style.backgroundColor = "#1E3EB8";
+  document.getElementById("text-primerGrado").innerHTML = "Primer Grado +";
+  }
+  return;
+  }
+
+  function desplegarSegundoGrado(){
+    if ((document.getElementById("archivos-segundoGrado").style.display) == "none")
+    {document.getElementById("archivos-segundoGrado").style.display = "block";
+    document.getElementById("div-segundoGrado").style.backgroundColor = "rgb(13, 28, 88)";
+    document.getElementById("text-segundoGrado").innerHTML = "Segundo Grado -";
+    }
+    else
+    {document.getElementById("archivos-segundoGrado").style.display = "none";
+    document.getElementById("div-segundoGrado").style.backgroundColor = "#1E3EB8";
+    document.getElementById("text-segundoGrado").innerHTML = "Segundo Grado +";
+    }
+    return;
+    }
+
+function desplegarTercerGrado(){
+    if ((document.getElementById("archivos-tercerGrado").style.display) == "none")
+    {document.getElementById("archivos-tercerGrado").style.display = "block";
+    document.getElementById("div-tercerGrado").style.backgroundColor = "rgb(13, 28, 88)";
+    document.getElementById("text-tercerGrado").innerHTML = "Tercer Grado -";
+    }
+    else
+    {document.getElementById("archivos-tercerGrado").style.display = "none";
+    document.getElementById("div-tercerGrado").style.backgroundColor = "#1E3EB8";
+    document.getElementById("text-tercerGrado").innerHTML = "Tercer Grado +";
+    }
+    return;
+    }
+
+function desplegarCuartoGrado(){
+    if ((document.getElementById("archivos-cuartoGrado").style.display) == "none")
+    {document.getElementById("archivos-cuartoGrado").style.display = "block";
+    document.getElementById("div-cuartoGrado").style.backgroundColor = "rgb(13, 28, 88)";
+    document.getElementById("text-cuartoGrado").innerHTML = "Cuarto Grado -";
+    }
+    else
+    {document.getElementById("archivos-cuartoGrado").style.display = "none";
+    document.getElementById("div-cuartoGrado").style.backgroundColor = "#1E3EB8";
+    document.getElementById("text-cuartoGrado").innerHTML = "Cuarto Grado +";
+    }
+    return;
+    }
+
+function desplegarQuintoGrado(){
+    if ((document.getElementById("archivos-quintoGrado").style.display) == "none")
+    {document.getElementById("archivos-quintoGrado").style.display = "block";
+    document.getElementById("div-quintoGrado").style.backgroundColor = "rgb(13, 28, 88)";
+    document.getElementById("text-quintoGrado").innerHTML = "Quinto Grado -";
+    }
+    else
+    {document.getElementById("archivos-quintoGrado").style.display = "none";
+    document.getElementById("div-quintoGrado").style.backgroundColor = "#1E3EB8";
+    document.getElementById("text-quintoGrado").innerHTML = "Quinto Grado +";
+    }
+    return;
+    }
+
+function desplegarSextoGrado(){
+    if ((document.getElementById("archivos-sextoGrado").style.display) == "none")
+    {document.getElementById("archivos-sextoGrado").style.display = "block";
+    document.getElementById("div-sextoGrado").style.backgroundColor = "rgb(13, 28, 88)";
+    document.getElementById("text-sextoGrado").innerHTML = "Sexto Grado -";
+    }
+    else
+    {document.getElementById("archivos-sextoGrado").style.display = "none";
+    document.getElementById("div-sextoGrado").style.backgroundColor = "#1E3EB8";
+    document.getElementById("text-sextoGrado").innerHTML = "Sexto Grado +";
+    }
+    return;
+    }
